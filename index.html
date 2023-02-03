@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+    <div class="box-container">
+      <div class="box" value="" id="1" onclick="mark(this.id)"></div>
+      <div class="box" value="" id="2" onclick="mark(this.id)"></div>
+      <div class="box" value="" id="3" onclick="mark(this.id)"></div>
+
+      <div class="box" value="" id="4" onclick="mark(this.id)"></div>
+      <div class="box" value="" id="5" onclick="mark(this.id)"></div>
+      <div class="box" value="" id="6" onclick="mark(this.id)"></div>
+
+      <div class="box" value="" id="7" onclick="mark(this.id)"></div>
+      <div class="box" value="" id="8" onclick="mark(this.id)"></div>
+      <div class="box" value="" id="9" onclick="mark(this.id)"></div>
+    </div>
+    <br />
+    <div id="winner"></div>
+    <br />
+    <button type="button" onClick="window.location.reload()">Reset Game</button>
+  </body>
+</html>

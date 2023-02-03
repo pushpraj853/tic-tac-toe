@@ -1,0 +1,15 @@
+.box-container {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  width: 150px;
+}
+
+.box {
+  height: 40px;
+  width: 40px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
